@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(262, 49%, 34%);
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 2rem;
+
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .skill-card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer {
+    background: #4b2c82;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 5px solid #4b2c82;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  
+  form {
+    margin-top: 1rem;
+    max-width: 500px; /* تحديد عرض النموذج */
+ /* تموضع النموذج في المنتصف */
+    margin-right: auto;
+    padding: 1rem;
+    border: 1px solid #ddd; /* إضافة حدود للنموذج */
+    border-radius: 8px; /* زوايا مستديرة */
+    background: #f9f9f9; /* خلفية فاتحة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+  }
+  
+  form {
+    margin-top: 1rem;
+    max-width: 500px; /* تحديد عرض النموذج */
+    margin-left: auto; /* تموضع النموذج في المنتصف */
+    margin-right: auto;
+    padding: 2rem; /* حواف داخلية للنموذج */
+    border: 1px solid #ddd; /* إضافة حدود للنموذج */
+    border-radius: 8px; /* زوايا مستديرة */
+    background: #f9f9f9; /* خلفية فاتحة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: calc(100% - 2rem); /* تأكد من أن العناصر تأخذ عرض النموذج مع حواف داخلية */
+    margin: 1rem auto; /* إضافة مسافة بين العناصر */
+    padding: 0.8rem;
+    border: 1px solid #ccc; /* حدود خفيفة للعناصر */
+    border-radius: 4px; /* زوايا مستديرة */
+    font-size: 1rem;
+    background: #fff;
+  }
+  
+  form button {
+    display: block;
+    width: calc(100% - 2rem); /* الزر يأخذ عرض النموذج مع مراعاة الحواف */
+    margin: 1rem auto; /* إضافة مسافة فوق وتحت الزر */
+    padding: 0.8rem;
+    font-size: 1rem;
+    background: #4b2c82; /* لون الخلفية */
+    color: white; /* لون النص */
+    border: none;
+    border-radius: 4px; /* زوايا مستديرة */
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #372063; /* تغيير لون الزر عند التمرير */
+  }
+  
